@@ -67,6 +67,7 @@ public class StudentController {
 		studentService.deleteStudentById(sid);
 	}
 
+	// @PatchMapping
 
 	//@PatchMapping({})
 	// public method
