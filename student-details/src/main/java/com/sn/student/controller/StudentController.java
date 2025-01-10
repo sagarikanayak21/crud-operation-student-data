@@ -66,4 +66,6 @@ public class StudentController {
 	public void deleteById(@PathVariable String sid) {
 		studentService.deleteStudentById(sid);
 	}
+
+	// @PatchMapping
 }
